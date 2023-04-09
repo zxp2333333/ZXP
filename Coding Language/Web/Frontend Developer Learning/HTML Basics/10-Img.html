@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+    The image will float to the right of the text.</p>
+    <!-- float 用来让图片浮动 -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+    <!-- usemap 用来创建图片和地图间的联系 -->
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <!-- coords 内四个数字两两一对，分别代表左上角和右下角 -->
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    <!-- 如果是圆，那coords内前两个字代表圆心坐标，第三个字代表半径 -->
+    </map>
+</body>
+</html>

@@ -1,0 +1,7 @@
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    /* 数字越大约在前面，要和position一起用，如果没有用，那么在最后定义的在最前面 */
+  }

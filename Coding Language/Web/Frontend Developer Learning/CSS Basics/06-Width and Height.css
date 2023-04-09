@@ -1,0 +1,9 @@
+div {
+    height: 200px;
+    /* 像素值 */
+    width: 50%;
+    /* 百分比 */
+    max-width: 500px;
+    /* 最大值 */
+    background-color: powderblue;
+  }

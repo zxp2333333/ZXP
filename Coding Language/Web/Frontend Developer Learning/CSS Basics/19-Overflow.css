@@ -1,0 +1,24 @@
+div {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: visible;
+    /* 溢出在框外 */
+  }
+div {
+    overflow: hidden;
+    /* 隐藏溢出 */
+  }
+div {
+    overflow: scroll;
+    /* 用滚动条显示溢出 */
+  }
+div {
+    overflow: auto;
+    /* 在必要时添加滚动条，比scroll智能 */
+  }
+div {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+    /* 指定x和y轴的滚动条 */
+  }

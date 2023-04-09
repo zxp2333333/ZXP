@@ -1,0 +1,28 @@
+a[target] {
+    background-color: yellow;
+}
+/* 选中有target属性的a标签 */
+a[target="_blank"] {
+    background-color: yellow;
+  }
+/* 选中target属性="_blank"的a标签 */
+[title~="flower"] {
+    border: 5px solid yellow;
+  }
+/* title值含有"flower"的元素   */
+[class|="top"] {
+    background: yellow;
+}
+/* 含有top或top-类的元素 */
+[class^="top"] {
+    background: yellow;
+  }
+/* 所有top开头的类 */
+[class$="test"] {
+    background: yellow;
+  }
+/* 以test为结尾的类 */
+[class*="te"] {
+    background: yellow;
+  }
+/* 包含te的类 */

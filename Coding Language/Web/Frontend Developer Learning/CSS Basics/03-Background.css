@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+    opacity: 0.3;
+    /* opacity是透明度 */
+  }
+/* 设定背景颜色   */
+body {
+    background-image: url("paper.gif");
+    background-repeat: repeat-x;
+    /* repeat是设定图片重复显示（如果宽度允许）有no-repeat,repeat-x,repeat-y三个值 */
+    background-position: right top;
+    /* background-position设定背景图片的位置 */
+    background-attachment: fixed;
+    /* 设定图片背景能否滚动 */
+  }
+/* 设定背景图片 */
+body {
+    background: #ffffff url("img_tree.png") no-repeat fixed right top;
+    /* 在一个属性中依次定义颜色,图片,平铺,滚动,位置 */
+  }

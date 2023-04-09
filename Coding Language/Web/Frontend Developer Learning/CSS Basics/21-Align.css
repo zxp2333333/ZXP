@@ -1,0 +1,47 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+/* 用margin：auto使块级元素居中 */
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+/* 文字居中 */
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+/* 用position来实现居中 */
+.right {
+    float: right;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+/* 使用浮动实现 */
+.center {
+    padding: 70px 0;
+    border: 3px solid green;
+}
+/* 控制外边距实现垂直居中 */
+.center {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+}
+/* 利用行高实现垂直居中 */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+}
+/* 利用flex模型 */

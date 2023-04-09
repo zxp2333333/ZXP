@@ -1,0 +1,36 @@
+div.static {
+    position: static;
+    /* 处于一般位置 */
+    border: 3px solid #73AD21;
+  }
+div.relative {
+    position: relative;
+    /* 相对于一般位置改变 */
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+div.fixed {
+    position: fixed;
+    /* 相对于视窗位置改变 */
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+div.absolute {
+    position: absolute;
+    /* 相对于父元素做出改变 */
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    /* 盯在固定位置 */
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+  }

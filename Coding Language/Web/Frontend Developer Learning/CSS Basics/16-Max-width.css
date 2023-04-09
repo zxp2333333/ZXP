@@ -1,0 +1,6 @@
+div.ex2 {
+    max-width: 500px;
+    /* 设置最大宽度 */
+    margin: auto;
+    border: 3px solid #73AD21;
+  }

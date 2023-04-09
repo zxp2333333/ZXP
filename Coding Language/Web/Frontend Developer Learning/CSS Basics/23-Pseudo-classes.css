@@ -1,0 +1,12 @@
+selector:pseudo-class {
+    property: value;
+}
+/* 伪类选择器的格式 */
+div:hover {
+    background-color: blue;
+  }
+/* 鼠标悬浮时的样式 */
+p:first-child {
+    color: blue;
+}
+/* 作为第一个子元素的p标签 */

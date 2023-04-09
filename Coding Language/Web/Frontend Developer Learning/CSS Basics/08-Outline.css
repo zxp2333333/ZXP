@@ -1,0 +1,53 @@
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+/* 各种outline的样式 */
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+  }
+  
+p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+  }
+  
+p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+  }
+  
+p.ex4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+  }
+/* 四中outline的宽度 */
+p.ex1 {
+    border: 2px solid black;
+    outline-style: solid;
+    outline-color: red;
+  }
+/* outline的颜色也可以用rgb，hex，hsl */
+p.ex3 {outline: 5px solid yellow;}
+p.ex4 {outline: thick ridge pink;}
+/* outline的简写和border一样，width，style，color */
+p {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+    /* outline-offset用来设置元素和outline的距离 */
+  }

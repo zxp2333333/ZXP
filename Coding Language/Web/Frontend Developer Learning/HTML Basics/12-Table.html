@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td {
+            border: 1px solid black;
+            /* 给表格增加边框 */
+            /* border-collapse: collapse; */
+            /* 让表格边框和单元格之间的缝隙消失 */
+            border-radius: 10px;
+            /* 让边框变为圆角边框 */
+            border-style: dotted;
+        }
+        table {
+            width: 100%;
+            padding: 10px;
+            /* 上右下左 */
+            border-spacing: 0px;
+            /* 单元格之间的间距 */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="1" style="visibility: collapse">
+            <col span="2" style="background-color: #D6EEEE">
+        </colgroup>
+        <!-- colgroup标签用来给表格中的列分组，用没有改变样式的col来进行间隔，visibility用来对列进行隐藏 -->
+        <caption>title of table</caption>
+        <!-- caption标签是表格的标题 -->
+       
+       <thead>
+        <!-- thead是表格中的头部部分 -->
+            <tr>
+            <!-- tr标签为一行 -->
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            <!-- th标签为表头单元格，表头单元格中的内容默认是居中且加粗的 -->
+            </tr>
+       </thead>
+       <tbody>
+        <!-- tbody是表格中的身体部分 -->
+            <tr>
+              <td colspan="2">Alfreds Futterkiste</td>
+              <!-- colspan属性用来多占列上的单元格 -->
+              <td rowspan="2">Maria Anders</td>
+              <!-- rowspan属性用来多占行上的单元格 -->
+              <td>Germany</td>
+              <!-- td标签为单元格标签 -->
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+       </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+p {
+    text-align: center;
+    color: red;
+  }
+/* 标签选择器 */
+#para1 {
+    text-align: center;
+    color: red;
+  }
+/* id选择器 */
+.center {
+    text-align: center;
+    color: red;
+  }
+/* 类选择器 */
+p.center {
+    text-align: center;
+    color: red;
+  }
+/* 类加标签复合选择 */
+* {
+    text-align: center;
+    color: blue;
+  }
+/* 通用选择器，指定所有标签 */
+h1, h2, p {
+    text-align: center;
+    color: red;
+  }
+/* 群组选择器，同时选择多个标签 */

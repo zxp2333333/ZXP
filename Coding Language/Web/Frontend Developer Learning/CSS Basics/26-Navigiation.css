@@ -1,0 +1,8 @@
+li {
+    display: inline;
+    /* 用display来设置水平导航栏 */
+}
+li {
+    float: left;
+    /* 用浮动设置水平导航栏 */
+}

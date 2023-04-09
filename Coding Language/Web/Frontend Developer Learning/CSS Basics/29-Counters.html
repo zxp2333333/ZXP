@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            counter-reset: part;
+        }
+        h1 {
+            counter-reset: subpart;
+        }
+        h1::before {
+            counter-increment: part;
+            content: "Part" counter(part) ".";
+        }
+        h2::before {
+            counter-increment: subpart;
+            content: counter(part) "." counter(subpart) ".";
+        }
+    </style>
+</head>
+<body>
+   <h1>working out</h1>
+   <h2>push ups</h2>
+   <h2>pull ups</h2>
+   <h2>squat</h2> 
+   <h1>reading</h1>
+   <h2>books</h2>
+   <h2>video</h2>
+   <h2>papers</h2>
+</body>
+</html>

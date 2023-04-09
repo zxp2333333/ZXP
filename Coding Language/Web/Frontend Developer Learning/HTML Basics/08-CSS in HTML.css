@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    /* 颜色 */
+    font-family: verdana;
+    /* 字体 */
+    font-size: 300%;
+    /* 字体大小 */
+  }
+p {
+    border: 2px solid powderblue;
+    /* 边框 */
+    padding: 30px;
+    /* 内边距 */
+    margin: 50px;
+    /* 外边距 */
+}

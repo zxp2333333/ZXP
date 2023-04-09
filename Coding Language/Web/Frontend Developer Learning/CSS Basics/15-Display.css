@@ -1,0 +1,14 @@
+li {
+    display: inline;
+  }
+
+span {
+    display: block;
+  }
+h1.hidden {
+    display: none;
+  }
+h1.hidden {
+    visibility: hidden;
+    /* 占位置但看不见 */
+  }

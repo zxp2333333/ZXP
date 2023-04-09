@@ -1,0 +1,7 @@
+div {
+    opacity: 0.3;
+    /* 设置透明度 */
+}
+div {
+    background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+}

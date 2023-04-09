@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+    <!-- form是表单标签，用于收集用户输入信息，method分为post和get两种，post不会在url中显示数据，get会 -->
+    <!-- autocomplete用来自动补充完成用户输入数据 -->
+    <input type="text">
+    <!-- text是单行文字输入框 -->
+    <input type="checkbox">
+    <!-- checkbox是复选框 -->
+    <input type="radio">
+    <!-- radio是单选框 -->
+    <input type="submit">
+    <!-- submit是提交按钮 -->
+    <input type="button">
+    <!-- button是按钮 -->
+    <br>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <!-- label方便点击区域，for和id进行绑定 -->
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+    <!-- 文本区域 -->
+    <!-- name属性不能被省略，id是身份证，name是名字，value是值 -->
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars" size="4" multiple>
+    <!-- size表示一次性可见的选项个数，multiple表示一次多选 -->
+    <option value="volvo" selected>Volvo</option>
+    <!-- selected表示默认选中 -->
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+    </select>
+    <!-- select下拉选择框，option内是选择项 -->
+    <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+    </textarea>
+    <!-- textarea文本框 -->
+    <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+    <!-- button按钮 -->
+    <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+    <!-- fieldset分隔区域，legend是分隔区域的标题 -->
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <!-- datalist信息选择框 -->
+    </form>
+    <form action="/action_page.php"
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range"  id="a" name="a" value="50">
+    100 +
+    <input type="number" id="b" name="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    <input type="submit">
+    </form>
+</body>
+</html>

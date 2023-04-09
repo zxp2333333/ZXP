@@ -1,0 +1,30 @@
+img {
+    float: right;
+    /* 让图片靠右浮动 */
+}
+img {
+    float: left;
+    /* 让图片靠左浮动 */
+}
+img {
+    float: none;
+    /* 不浮动 */
+}
+div1 {
+    float: left;
+  }
+  
+div2 {
+    clear: left;
+    /* 清除浮动 */
+}
+* {
+    box-sizing: border-box;
+  }
+  
+.box {
+    float: left;
+    /* 同时浮动来使多个块元素并列 */
+    width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+    padding: 50px; /* if you want space between the images */
+  }

@@ -1,0 +1,32 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: lightyellow;
+}
+h1 {
+    margin: 10px;
+}
+p, img.cover {
+    margin: 10px;
+}
+img.cover {
+    width: 300px;
+}
+div.introduction {
+    width: calc(100% - 330px);
+    float: right;
+    margin: 10px 10px 10px 0px;
+}
+div.introduction>ol>li {
+    font-size: 1em;
+    margin: 10px 0px;
+}
+div.notes>ul>li {
+    margin: 10px;
+}

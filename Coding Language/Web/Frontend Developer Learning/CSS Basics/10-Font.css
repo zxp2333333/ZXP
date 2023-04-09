@@ -1,0 +1,46 @@
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+    /* 指定字体 */
+  }
+p {
+    font-family: Tahoma, Verdana, sans-serif;
+    /* 使用后备字体 */
+    }
+
+p.normal {
+        font-style: normal;
+      }
+      
+p.italic {
+        font-style: italic;
+      }
+      
+p.oblique {
+        font-style: oblique;
+      }
+
+p.normal {
+        font-weight: normal;
+      }
+      
+p.thick {
+        font-weight: bold;
+      }
+
+p.normal {
+        font-variant: normal;
+      }   
+p.small {
+        font-variant: small-caps;
+      }
+
+h1 {
+        font-size: 2.5em; /* 40px/16=2.5em */
+      }
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+/* google font */
+p.b {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    /* 简写：style variant weight size/line-hight family */
+  }

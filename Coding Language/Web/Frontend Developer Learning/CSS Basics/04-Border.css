@@ -1,0 +1,25 @@
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+/* 各种边框样式 */
+p.one {
+    border-style: solid;
+    border-width: 5px;
+    /* border-width指定边框宽度，也可以通过多位数字来确定上下左右四个边框的宽度*/
+    border-color: green;
+    /* 指定颜色，同样可以分别指定四个边框的颜色 */
+  }
+  p {
+    border: 5px solid red;
+    /* 简略写法，依次指定宽度，样式，和颜色 */
+    border-radius: 5px;
+    /* 指定圆角边框 */
+  }

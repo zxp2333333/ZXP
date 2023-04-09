@@ -1,0 +1,50 @@
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+/* 设置四个外边距 */
+p {
+  margin: 25px 50px 75px 100px;
+}
+/* 简略写法，上右下左 */
+p {
+  margin: 25px 50px 75px;
+}
+/* 简略写法，上，左右，下 */
+p {
+  margin: 25px 50px;
+}
+/* 简略写法，上下左右 */
+div {
+  width: 300px;
+  margin: auto;
+  /* 使用auto属性进行水平居中 */
+  border: 1px solid red;
+}
+p.ex1 {
+  margin-left: inherit;
+  /* inherit属性，继承父元素的值 */
+}
+h1 {
+  margin: 0 0 50px 0;
+}
+
+h2 {
+  margin: 20px 0 0 0;
+}
+/* h1和h2上边距和下边距重合，导致塌陷，本来应该是70px，实际上是50px */
+div {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+/* 设置内边距，简略写法和margin一样 */
+div {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  /* 用box-sizing来设置盒子大小不受边框和内边距影响，总大小就是300px */
+}

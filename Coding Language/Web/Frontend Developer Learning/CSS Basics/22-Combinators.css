@@ -1,0 +1,12 @@
+div > p {
+    background-color: yellow;
+}
+/* 子代选择器，只选择儿子 */
+div ~ p {
+    background-color: yellow;
+}
+/* 邻居选择器，选择相邻的元素 */
+div + p {
+    background-color: yellow;
+  }
+/* 兄弟选择器，选择自己后头的元素 */

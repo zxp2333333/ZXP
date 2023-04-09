@@ -1,0 +1,92 @@
+body {
+    color: blue;
+    /* 文字颜色 */
+    text-align: center;
+    /* 文字居中 */
+    text-align: justify;
+    /* 文字两端对齐 */
+    text-align-last: right;
+    /* 设定最后一行的对齐方式 */
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    /* 这两项设定文字方向，这样设定，文字靠右且从又到左 */
+  }
+img.a {
+    vertical-align: baseline;
+  }
+  
+img.b {
+    vertical-align: text-top;
+  }
+  
+img.c {
+    vertical-align: text-bottom;
+  }
+  
+img.d {
+    vertical-align: sub;
+  }
+  
+img.e {
+    vertical-align: super;
+  }
+/* vertical-align设定垂直对齐方式 */
+h1 {
+    text-decoration-line: overline;
+  }
+  
+h2 {
+    text-decoration-line: line-through;
+  }
+  
+h3 {
+    text-decoration-line: underline;
+  }
+  
+p {
+    text-decoration-line: overline underline;
+  }
+/* text-decoration-line设定下划线   */
+p {
+    text-decoration: underline red double 5px;
+  }
+/* 简写，line，color，style，thickness */
+a {
+    text-decoration: none;
+  }
+/* 移除下划线 */
+p.uppercase {
+    text-transform: uppercase;
+  }
+  
+p.lowercase {
+    text-transform: lowercase;
+  }
+  
+p.capitalize {
+    text-transform: capitalize;
+  }
+/* 设定文字大小写样式 */
+p {
+    text-indent: 50px;
+    /* 文字缩进 */
+  }
+h1 {
+    letter-spacing: 5px;
+    /* 文字间距 */
+    word-spacing: 10px;
+    /* 词间距 */
+  }
+p.small {
+    line-height: 0.8;
+    /* 文字行高 */
+  }
+p {
+    white-space: nowrap;
+    /* 不换行 */
+  }
+h1 {
+    text-shadow: 2px 2px red;
+    /* 文字阴影，水平大小，垂直大小，颜色 */
+  }
+  

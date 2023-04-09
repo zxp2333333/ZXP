@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid;
+  }
+table {
+    border-collapse: collapse;
+  }
+
+
+<div style="overflow-x:auto;">
+
+<table>
+... table content ...
+</table>
+  
+</div>
+/* 在表格x轴增加滚动条 */

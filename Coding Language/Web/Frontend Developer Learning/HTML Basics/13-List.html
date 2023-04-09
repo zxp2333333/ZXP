@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: disc;
+            /* ul内容前的符号，有disc，circle，square和none四种 */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+            <!-- li中可以嵌套其他东西，但ul中只能放li -->
+        </li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- ul是unorder list 也就是无序列表 -->
+    <ol type="1" start="50">
+        <!-- ol内容前的符号，有五种：1，a，A，i，I;start代表从50开始计数 -->
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <!-- ol是order list 也就是有序列表 -->
+    <dl>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+    <!-- dl是描述列表，dt用来写描述的目标，dd用来写描述的内容 -->
+</body>
+</html>

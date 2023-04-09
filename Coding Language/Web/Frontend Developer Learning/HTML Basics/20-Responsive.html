@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .left, .right {
+          float: left;
+          width: 20%; /* The width is 20%, by default */
+        }
+        
+        .main {
+          float: left;
+          width: 60%; /* The width is 60%, by default */
+        }
+        
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 800px) {
+          .left, .main, .right {
+            width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+          }
+        /* 用媒体查询语句，设定当屏幕小于800px时，相应类改为100%宽度 */
+        }
+    </style>
+</head>
+<body>
+    <picture>
+        <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+        <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+        <source srcset="flowers.jpg">
+        <img src="img_smallflower.jpg" alt="Flowers">
+      </picture>
+      <!-- 根据窗口大小不同，显示不一样的图片 -->
+      <h1 style="font-size:10vw">Hello World</h1>
+      <!-- 根据视窗大小改变字体大小 -->
+
+</body>
+</html>
