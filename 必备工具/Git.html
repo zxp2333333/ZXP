@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Of Git</title>
+</head>
+<body>
+    <h1>Git</h1>
+    <section>
+        <h2>Introduction Of Git</h2>
+        <p>Git 是一个免费的开源的分布式版本控制系统，可以快速高效地处理各种项目</p>
+        <p>Git 易于学习，性能快，有廉价的本地库</p>
+        <ol>
+            <li>什么是版本控制</li>
+            <p>记录文件内容变化，以便查阅版本更迭情况的系统，可以查看历史版本并进行切换</p>
+            <li>集中式版本控制</li>
+            <p>利用单一集中管理的服务器，协同工作的人通过客户端连接到服务器，最大缺点就是服务器的单点故障问题</p>
+            <li>分布式版本控制</li>
+            <p>通过远程库的克隆来基于自己的本地库来进行推送修改</p>
+            <li>Git的工作机制</li>
+            <p>工作区->暂存区->本地库，提交到本地库时，会产生历史版本</p>
+        </ol>
+    </section>
+    <section>
+        <h2>Installation Of Git</h2>
+        <p>git官网中下载并一路下一步，选择vscode或其他的编辑器</p>
+    </section>
+    <section>
+        <h2>Commands In Git</h2>
+        <ol>
+            <li>基本的linux命令</li>
+            <ol>
+                <li>cd: 改变目录</li>
+                <li>cd .. 回退到上一个目录</li>
+                <li>pwd: 显示当前目录路径</li>
+                <li>ls(ll): 都是列出当前目录中的所有文件,但是ll更为详细</li>
+                <li>touch: 新建一个文件</li>
+                <li>rm: 删除一个文件</li>
+                <li>mkdir: 新建一个文件夹</li>
+                <li>rm -r: 删除一个文件夹</li>
+                <li>mv 文件 目标文件夹: 移动文件</li>
+                <li>reset: 初始化/清屏</li>
+                <li>history: 查看历史命令</li>
+                <li>help: 帮助</li>
+                <li>exit: 退出</li>
+                <li>#: 表示注释</li>
+            </ol>
+            <li>Git 基本命令</li>
+            <ol>
+                <li>git config -l: 查看git配置</li>
+                <li>git config --global user.name + 名称: 修改名称</li>
+                <li>git init: 初始化</li>
+                <li>git clone + url: 克隆远程代码</li>
+                <li>git status 文件: 查看文件状态,不加文件则查看所有文件状态</li>
+                <li>git commit -m "new file zxp.txt": 提交到本地仓库</li>
+            </ol>
+            <li>忽略文件</li>
+            <ol>
+                <li># .txt: 忽略所有以txt结尾的文件</li>
+                <li>!lib.txt: lib.txt为例外，不会被忽略</li>
+                <li>/temp: 忽略除temp以外的其他目录</li>
+                <li>build/: 忽略bulid文件夹下所有文件</li>
+                <li>doc/*.txt: 忽略doc目录下.txt结尾的文件，但子目录下的不会</li>
+            </ol>
+        </ol>
+    </section>
+</body>
+</html>
