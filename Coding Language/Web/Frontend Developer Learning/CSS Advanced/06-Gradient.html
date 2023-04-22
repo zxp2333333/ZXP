@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gradient {
+            width: 500px;
+            height: 200px;
+            margin: 0 auto;
+            background-image: linear-gradient(to bottom right,red,yellow);
+            /* 方向加颜色 */
+        }
+        .gradient2 {
+            width: 500px;
+            height: 200px;
+            margin: 0 auto;
+            background-image: linear-gradient(135deg,black,white,blue);
+            /* 角度(以竖直向上方向为0度，向下为180，方向就是角的另一边指向的方向)加多个颜色 */
+        }
+        .repeat-gradient {
+            width: 500px;
+            height: 200px;
+            margin: 0 auto;
+            background-image: repeating-linear-gradient(180deg,black 10%,white 20%);
+        }
+        .radial-gradient {
+            width: 500px;
+            height: 200px;
+            margin: 0 auto;
+            background-image: radial-gradient(circle,black,white);
+        }
+    </style>
+</head>
+<body>
+    <div class="gradient">
+
+    </div>
+    <div class="gradient2">
+
+    </div>
+    <div class="repeat-gradient">
+
+    </div>
+    <div class="radial-gradient"></div>
+</body>
+</html>

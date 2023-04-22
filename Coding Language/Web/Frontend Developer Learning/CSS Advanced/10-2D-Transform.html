@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 500px;
+            height: 200px;
+            background-color: yellow;
+        }
+        div:hover {
+            /* transform: translate(100px,50px); */
+            /* x轴，y轴平移 */
+            /* transform: rotate(90deg); */
+            /* 绕中心旋转 */
+            /* transform: scale(2,3); */
+            /* 规模增大或减小 */
+            /* transform: scaleY(0.5); */
+            /* 按x轴或y轴单独缩放规模 */
+            /* transform: skewX(-45deg); */
+            /* transform: skewY(20deg); */
+            /* transform: skew(20deg, 10deg); */
+            /* 倾斜 */
+            transform: matrix(1, -0.3, 0, 1, 0, 0);
+            /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+        }
+    </style>
+</head>
+<body>
+    <div>tranform</div>
+</body>
+</html>
