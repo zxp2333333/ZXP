@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="numbers"></p>
+    <p id="strings"></p>
+    <p id="upper"></p>
+    <p id="lower"></p>
+    <script>
+        let A, a;
+        // the variable declared by let can be changed
+        A = 'z';
+        let A;
+        // if you re-declare a variable, it will not lose it's value;
+        // uppercase variables is different from lowercase varibales 
+        a = 'xp';
+        document.getElementById("numbers").innerHTML = 10.50;
+        document.getElementById("strings").innerHTML = "zxp";
+        document.getElementById("upper").innerHTML = A;
+        document.getElementById("lower").innerHTML = a;
+    </script>
+</body>
+</html>
